@@ -20,9 +20,9 @@ phase:
   build:
     commands:
       # tests
-      -yarn test
+      - yarn test
       # build
-      -yarn build
+      - yarn build
 artifacts:
   files:
     - "**/*"
